@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/richieyim/yim_view_tool
-  revision: 6b9ce365e71e1e56c07c095370e62638abf13c13
-  specs:
-    yim_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -184,6 +178,7 @@ GEM
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
+    yim_view_tool (0.1.0)
 
 PLATFORMS
   ruby
@@ -208,7 +203,7 @@ DEPENDENCIES
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
-  yim_view_tool!
+  yim_view_tool (~> 0.1.0)
 
 BUNDLED WITH
    1.13.7
