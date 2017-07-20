@@ -96,3 +96,8 @@ footer p {
   opacity: 1;
   right: 0;
 }
+
+.slow-spin {
+  -webkit-animation: fa-spin 8s infinite linear;
+  animation: fa-spin 8s infinite linear;
+}
